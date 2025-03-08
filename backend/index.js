@@ -10,7 +10,7 @@ const productRoutes= require("./routes/productRoutes")
 const paymentRoutes=require('./routes/paymentRoutes')
 const cartRoutes=require("./routes/cartRoutes")
 const corsOptions = {
-    origin: "https://ecommerce-1-6ii8.onrender.com/", // Allow frontend domain
+    origin: "https://ecommerce-1-6ii8.onrender.com", // Allow frontend domain
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
     credentials: true, // Allow cookies/auth headers
     allowedHeaders: ["Content-Type", "Authorization"], // Explicitly allow Authorization header
